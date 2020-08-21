@@ -172,6 +172,11 @@ public class ABVideoRangeSlider: UIView, UIGestureRecognizerDelegate {
     public func hideProgressIndicator(){
         self.progressIndicator.isHidden = true
     }
+	
+	public func hideStartAndEndIndicator(){
+        self.startIndicator.isHidden = true
+	self.endIndicator.isHidden = true	
+    }
 
     public func showProgressIndicator(){
         self.progressIndicator.isHidden = false
